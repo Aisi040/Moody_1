@@ -1,4 +1,4 @@
-# WordPress-kärnfilerna
+# WordPress-kÃ¤rnfilerna
 /wp-admin/
 /wp-includes/
 
@@ -10,7 +10,7 @@ wp-config.php
 /nginx.conf
 /web.config
 
-# Innehåll som genereras av användare och cache-filer
+# InnehÃ¥ll som genereras av anvÃ¤ndare och cache-filer
 /wp-content/uploads/
 /wp-content/blogs.dir/
 /wp-content/upgrade/
@@ -21,19 +21,6 @@ wp-config.php
 /wp-content/themes/*/cache/
 /wp-content/plugins/*/cache/
 
-# Specifika filer i wp-content
-/wp-content/db.php
-
-# Specifika WooCommerce-filer
-/wp-content/plugins/woocommerce/logs/
-/wp-content/uploads/woocommerce_uploads/
-
-# Ignorera alla temaer och plugins förutom de som är skräddarsydda
-# Exempelvis kan du ignorera alla plugins och sedan vitlista ditt eget tema
-/wp-content/plugins/
-/wp-content/themes/
-!wp-content/plugins/mitt-plugin/
-!wp-content/themes/mitt-tema/
 
 # Ignorera node moduler och kompilerade statiska filer
 /node_modules/

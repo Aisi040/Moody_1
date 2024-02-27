@@ -1,0 +1,179 @@
+﻿/*
+Theme Name: My WordPress Theme
+Author: Aisi
+Description: Projektskola
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.header-background {
+    background-image: url('Assets/images/Variant2.png');
+    background-size: cover; /* Täcker hela headern, kan justeras enligt behov */
+    background-position: center; /* Centrerar bilden, kan justeras enligt behov */
+    height: 150px; /* Exempel på höjd, justera enligt ditt tema */
+}
+/* Cart Page Styles */
+.cart-page {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-header {
+    background-image: url('path-to-your-header-image.jpg');
+    background-size: cover;
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-table th {
+    background-color: #eee;
+  }
+  
+  .quantity-button {
+    background-color: #f1f1f1;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  .checkout-button {
+    background-color: #ffd1dc; /* Light pink background */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .information-section {
+    background-color: #ffd1dc; /* Light pink background */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    background-color: #333; /* Dark background */
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-column {
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Clearfix */
+  .footer-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .site-info {
+    background-color: #222; /* Even darker background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Add responsive styles as needed */
+  @media (max-width: 768px) {
+    .footer-column {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  /* End Cart Page Styles */
+  
+.site-footer {
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Sans-serif font */
+  }
+  
+  .footer-container {
+    max-width: 1200px; /* Max width of the footer content */
+    margin: 0 auto; /* Center the footer container */
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap items on small screens */
+  }
+  
+  .footer-address p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
+  .footer-links a {
+    color: #fff; /* White link text */
+    text-decoration: none; /* No underline */
+    margin-right: 15px; /* Space between links */
+  }
+  
+  .footer-links a:last-child {
+    margin-right: 0; /* No margin for the last link */
+  }
+  
+  .footer-newsletter input[type="email"] {
+    padding: 10px;
+    margin-right: 10px; /* Space between email input and submit button */
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-newsletter input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color for the example */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .footer-links,
+    .footer-newsletter {
+      width: 100%;
+      margin-top: 10px;
+    }
+    
+    .footer-newsletter form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-newsletter input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 10px; /* Space between email input and submit button on small screens */
+    }
+  }
+  
